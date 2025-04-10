@@ -1,0 +1,35 @@
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .moduleButton {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .moduleButton:hover {
+    background-color: #ff4500;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    .moduleButton {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  }
+  
